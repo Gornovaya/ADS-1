@@ -10,13 +10,13 @@ int mid = (i + j) / 2;
 if (value < arr[mid])
 j = mid;
 else
-i = mid+1;
+i = mid + 1;
 }
 
 if (value == arr[i]) {
 while (arr[i] == value) {
-res = res + 1;
-i = i + 1;
+res++;
+i++;
 }
 }
 
