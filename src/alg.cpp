@@ -13,7 +13,7 @@ else
 i = mid + 1;
 }
 
-if (value == arr[i]) {
+if (arr[i] == value) {
 while (arr[i] == value) {
 res++;
 i++;
